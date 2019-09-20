@@ -1,0 +1,67 @@
+.header {
+	background-color: #000000;
+	color: #8400ff;
+	text-align: center;
+	padding: 30px;
+}
+
+body {
+	background-color: #4b4f4c;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #000bad;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+.topnav a:hover {
+	background-color: #dddddd;
+	color: #000000;
+}
+
+div.polaroid {
+	width: 31.5%;
+	background-color: #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	margin-bottom: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+div.polaroid img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.container {
+	text-align: center;
+	padding: 10px 20px;
+}
